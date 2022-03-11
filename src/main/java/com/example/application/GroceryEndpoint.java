@@ -11,7 +11,7 @@ import java.util.List;
 @AnonymousAllowed
 public class GroceryEndpoint {
 
-    static final List<GroceryItem> groceryList = new ArrayList<>();
+    private final List<GroceryItem> groceryList = new ArrayList<>();
 
     public @Nonnull List<@Nonnull GroceryItem> getGroceries() {
         return groceryList;
