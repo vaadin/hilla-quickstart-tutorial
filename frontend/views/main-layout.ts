@@ -31,7 +31,6 @@ export class MainLayout extends Layout {
         <section class="flex flex-col items-stretch max-h-full min-h-full" slot="drawer">
           <h2 class="flex items-center h-xl m-0 px-m text-m">${appStore.applicationName}</h2>
           <nav aria-labelledby="views-title" class="border-b border-contrast-10 flex-grow overflow-auto">
-            <h3 class="flex items-center h-m mx-m my-0 text-s text-tertiary" id="views-title">Views</h3>
             <ul class="list-none m-0 p-0">
               ${this.getMenuRoutes().map(
                 (viewRoute) => html`
