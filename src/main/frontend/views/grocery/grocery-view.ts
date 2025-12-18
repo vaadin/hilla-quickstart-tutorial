@@ -1,11 +1,10 @@
+import '@vaadin/vaadin-lumo-styles/utility.css';
 import '@vaadin/button';
 import '@vaadin/text-field';
 import '@vaadin/number-field';
 import '@vaadin/grid/vaadin-grid';
 import { html } from 'lit';
 import { customElement, state } from 'lit/decorators.js';
-import '@vaadin/vaadin-lumo-styles/sizing';
-import '@vaadin/vaadin-lumo-styles/spacing';
 import { View } from '../../views/view';
 import { Binder, field } from '@vaadin/hilla-lit-form';
 import { getGroceries, save } from '../../generated/GroceryEndpoint';
