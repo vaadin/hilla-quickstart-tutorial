@@ -1,4 +1,3 @@
-import '@vaadin/vaadin-lumo-styles/utility.css';
 import '@vaadin/button';
 import '@vaadin/text-field';
 import '@vaadin/number-field';
